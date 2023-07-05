@@ -1,0 +1,13 @@
+/* 
+ Theme Name: Jasir Carvajal 
+ Template: arrival
+ Author: Jasir Carvajal
+ Requires PHP: 5.6
+ Description:  Jasir Carvajal is child theme of Arrival. 
+ Version: 1.0.0
+ License:      GNU General Public License v3 or later
+ License URI:   http://www.gnu.org/licenses/gpl-3.0.html
+ Text Domain:  arrival-me 
+*/
+@import url(../arrival-me/style.css);
+@import url(./assets/css/style.css);

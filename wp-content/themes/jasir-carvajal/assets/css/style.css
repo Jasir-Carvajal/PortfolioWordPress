@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+body{
+    background-color: #262631;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    color: #E1E0E9;
+    font-family: 'Rubik', sans-serif;
+}
+
+.header-last-item {
+    display: none;
+}
+
+.main-header-wrapp.full{
+    background-color: #2B2B37 !important;
+}
+
+.main-header-wrapp .container{
+    justify-content: center !important;
+}
+
+.site-branding{
+    display: none;
+}
+
+.menu-item a{
+    color: #E1E0E9 !important;
+    font-size: 1.25rem !important;
+}
+
+.mob-outer-wrapp{
+    background-color: #2B2B37 !important;
+}
+
+.menu-toggle, .menu-toggle::after, .menu-toggle::before{
+    background-color: #E1E0E9 !important;
+}
+
+.gallery-icon img{
+    filter: grayscale(100%) !important;
+    transition:  .3s ease-in-out;
+}
+
+.gallery-icon img:hover{
+    transform: scale(1.2);
+    filter: grayscale(0%) !important;
+}
+
+.scroll-top-top{
+    background-color: #ffc107 !important;
+    border-color: #ffc107 !important;
+}
+
+.proyectos .wp-show-posts-entry-summary p{
+    color: #333;
+    opacity: 80%;
+    font-size: 1.2rem;
+}
+
+.site-main{
+    background-color: #262631;
+}
+
+.publicaciones article{
+    margin-bottom: 5rem;
+}
+
+.publicaciones img{
+    width: 1575px;
+    height: auto;
+    max-width: 100%;
+}
+
+.publicaciones .title{
+    font-size: 1.5rem;
+    text-decoration: none !important;
+}
+
+
+@media screen and (max-width:768px) {
+    .menu-item a{
+        color: #2B2B37 !important;
+        font-size: 1.25rem !important;
+    }
+}
